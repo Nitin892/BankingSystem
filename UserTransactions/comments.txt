@@ -1,0 +1,8 @@
+This code is an implementation of a banking application that allows users to create accounts, log in, send and receive money, and view their transaction history.
+ The application stores user data in a file named "user.txt" and uses linked lists to keep track of the transactions made by each user.
+
+The code defines several structs to represent users, transactions sent and received by users, and linked lists to store these transactions. 
+It also includes functions to perform various operations such as checking if a user already exists, creating a new user account, logging in to an existing account, sending and receiving money, and viewing transaction history.
+
+The main function of the code sets up a vector of User objects and prompts the user to log in or create a new account. Once logged in, the user can perform various banking operations such as sending and receiving money, and viewing transaction history. 
+The code uses threads and sleep functions to simulate a real-world banking application where multiple users may be performing transactions simultaneously.
